@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int score;
     string grade;
+    string isPass;
 
     cout<<"請輸入分數:";
     cin>>score;
@@ -38,6 +39,12 @@ int main(){
     else    grade="E";
     */
 
-    cout<<grade<<endl;
+    //if(score >= 60) isPass = "及格";
+    //else isPass = "不及格";
+    isPass = (score >=60)? "及格" : "不及格";
+    
+    cout<<"分數為:"<<score<<endl;
+    cout<<"等級為:"<<grade<<endl;
+    cout<<"是否及格:"<<isPass<<endl;
     return 0;
 }
