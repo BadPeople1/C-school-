@@ -12,11 +12,6 @@ int main(){
     // cout << "ip=" << ip << endl;
     // cout << "*ip=" << *ip << endl;
 
-
-
-
-
-
     // const int N=5;
     // int a[N]={10,20,30,40,50};
     // int *ptr=nullptr;
