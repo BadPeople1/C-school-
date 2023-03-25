@@ -12,8 +12,6 @@ int main(){
     // cout << "ip=" << ip << endl;
     // cout << "*ip=" << *ip << endl;
 
-        
-
 
 
 
