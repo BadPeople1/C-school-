@@ -13,4 +13,5 @@ public:
     CVector* operator+(const CVector*);
     void print();
     static int count;
+    ~CVector();
 };

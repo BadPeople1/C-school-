@@ -31,3 +31,9 @@ void CVector::print()
     cout<<"("<<x<<","<<y<<")"<<endl;
     //cout<<"總共有"<<count<<"個CVector物件"<<endl;
 }
+
+CVector::~CVector()
+{
+    cout<<"呼叫CVector解構子"<<endl;
+    count--;
+}
