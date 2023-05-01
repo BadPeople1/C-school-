@@ -17,5 +17,9 @@ int main(){
     cout<<"rect2寬"<<rect2.getWidth()<<endl;
     cout<<"rect2面積"<<rect2.area()<<endl;
 
+    Rectangle* rect3 = new Rectangle(5,6);
+    cout << "rect3 面積" << rect3->area() << endl;
+    delete rect3;
+
     return 0;
 }
