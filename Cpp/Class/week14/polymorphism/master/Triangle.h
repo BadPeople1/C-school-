@@ -1,10 +1,10 @@
 #pragma once
-#include<iostream>
-#include"shape.h"
-using namespace std;
-class Triangle:public shape
+#include <iostream>
+#include "shape.h"
+class Triangle :
+    public shape
 {
 public:
-    Triangle(int,int);
+    Triangle(int, int);
     int area();
-}
+};

@@ -1,6 +1,6 @@
 #include"Triangle.h"
 
-Triangle::Triangle(int a=0,int b=0):shape{a,b}
+Triangle::Triangle(int a, int b) : shape {a, b}
 {
 }
 
