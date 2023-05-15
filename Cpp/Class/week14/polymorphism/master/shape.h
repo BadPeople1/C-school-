@@ -7,5 +7,5 @@ protected:
     int width,height;
 public:
     shape(int,int);
-    int area();
+    virtual int area();
 };
