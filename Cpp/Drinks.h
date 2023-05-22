@@ -5,6 +5,7 @@ using namespace std;
 
 class Drinks
 {
+    private:
     string drinkName;
     string drinkSize;
     int drinkPrice;
