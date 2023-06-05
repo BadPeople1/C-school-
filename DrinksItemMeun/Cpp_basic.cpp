@@ -16,7 +16,7 @@ void AddNewDrink(vector<DrinkItem>& drinks)
     // drinks.push_back(DrinkItem("可樂", "大杯", 30));
     // drinks.push_back(DrinkItem("可樂", "小杯", 20));
 
-    string filename{ "C:\\Users\\CSIE\\Documents\\C-school-\\drinks.csv" };
+    string filename{ "drinks.csv" };
     string file_content = ReadFile(filename);
 
     vector<string> lines = Split(file_content, '\n');
