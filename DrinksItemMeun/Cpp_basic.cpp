@@ -33,7 +33,13 @@ void AddNewDrink(vector<DrinkItem>& drinks)
 }
 
 vector<string> Split(const string& s, char delimiter) {
-
+    vector<string> tokens;
+    string token;
+    istringstream tokenStreams(s);
+    while (getline(tokenStreams, token, delimiter)) {
+        tokens.push_back(token);
+    }
+    return tokens;
 }
 
 string ReadFile(const string& filename){
